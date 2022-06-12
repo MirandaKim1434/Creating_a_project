@@ -26,7 +26,7 @@ fn main () {
 
 4. Save file
 
-5. go back to terminal window
+5. Go back to terminal window
 
 ```rust
 rustc main. rs 
