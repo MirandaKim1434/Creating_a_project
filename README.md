@@ -1,26 +1,30 @@
 # rust-creating-project
 
-How to get started with Rust quick
+How to get started with Rust quick. 
+Install Rustc for Mac and Linux.
+
+`curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh`
+
 
 ## Rust
 
 
-![image](https://user-images.githubusercontent.com/107215734/173245938-d35f9a58-b05f-42cd-a1a6-4a4f422adfef.jpeg)
+![computers and rust](https://user-images.githubusercontent.com/107215734/173245938-d35f9a58-b05f-42cd-a1a6-4a4f422adfef.jpeg) 
 
 
 ### Creating a Project
 
 1. Create Project
-    * `mkdir`**$project_name** 
+    * `mkdir $project_name`
 
 2. Finding Project
-    * `cd`**$project_name**
+    * `cd $project_name`
 
 3. Writing and Running:
     * Create file name: _main.rs_
  ```rust 
-fn main () { 
-    println!("$project_name"); 
+fn main() { 
+    println!("hello!"); 
 }
 ```
 
@@ -28,10 +32,10 @@ fn main () {
 
 5. Go back to terminal window
 
-```rust
-rustc main.rs 
-    .\main
-    $project_name
+```sh
+ rustc main.rs
+ ./main
+# Hello!
 ```
    * Regardless of operating system, the string project name should print to the terminal. If you don’t see this refer to troubleshooting.
 
