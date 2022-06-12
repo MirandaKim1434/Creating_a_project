@@ -20,7 +20,7 @@ How to get started with Rust quick
     * Create file name: _main.rs_
  ```rust 
 fn main () { 
-    println! ("project name"); 
+    println!("$project_name"); 
 }
 ```
 
@@ -29,8 +29,8 @@ fn main () {
 5. Go back to terminal window
 
 ```rust
-rustc main. rs 
-    .\main.exe
+rustc main.rs 
+    .\main
     $project_name
 ```
    * Regardless of operating system, the string project name should print to the terminal. If you don’t see this refer to troubleshooting.
